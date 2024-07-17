@@ -22,3 +22,17 @@ resultado = somaDoisNumeros(numero1, numero2)
 
 print(resultado)
 print(somaDoisNumeros(numero1,numero2))
+
+
+# função com 2 returns
+
+def divideDoisNumeros(a,b):
+    if (a and b != 0):
+        return a/b
+    else:
+        return "impossível dividir por zero"
+
+a = 6
+b = 3
+
+print(divideDoisNumeros(a,b))
